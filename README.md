@@ -1,7 +1,7 @@
 Home_Sales
 Module 22 Challenge
 
-This challenge will require to use your understanding of the SparkSQL knowledge to determine the metrics about homes sales data. Once the dependencies of pyspark are imported, then the book can be ran under sparksql for the remaineder of the requires and all data must be rounded off to 2 decimal points as a part of the requirement. Spark can be used to create temporary views, partition the data, cache and uncache temporary tables, and also to verify that the table has been uncached. The difference in the reading is seen due to the ability to use cached and uncached data.
+This challenge will require to use your understanding of the SparkSQL knowledge to determine the metrics about homes sales data. Once the dependencies of pyspark are imported, We can import the data from s3 bucket as read_csv and create as Data frame.Then we use sparksql to query the Data tables. Spark can be used to create temporary views, partition the data, cache and uncache temporary tables, and also to verify that the table has been uncached. The difference in the reading is seen due to the ability to use cached and uncached data.
 
 Some of the questions addressed during the assignment using Spark were as follows:
 
